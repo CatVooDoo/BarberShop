@@ -5,6 +5,39 @@
 .wrapper {
     max-width: 1240px;
     margin: 0 auto;
+* {
+    box-sizing: border-box; 
+}
 
+.wrapper {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* :root {} */
+
+/* HEADER */
+.header {
+    background-image: url(../img/headerback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    min-height: 100vh;
+}
+
+.navigation {
+    max-width: 550px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    font-weight: 500;
+    font-size: 24px;
+}
     background-color: firebrick;
 }
